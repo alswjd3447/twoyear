@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2year</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <div class="timebox">
+      <span id="date"></span>
+      <span id="clock"></span>
+      <span id="weather"></span>
+    </div>
+    <div id="yoho">♥</div>
+    <div class="view">
+      <form id="loginForm">
+        <input
+          type="text"
+          id="userName"
+          placeholder="이름을 입력하세요!"
+          required
+        />
+        <input type="submit" id="loginBtm" value="입력" />
+      </form>
+
+      <h1 id="greeting" class="hidden"></h1>
+      <h2 id="day" class="hidden"></h2>
+      <form id="toDoForm">
+        <input
+          type="text"
+          id="toDoInput"
+          required
+          placeholder="하고싶은 것을 입력하세요!"
+        />
+        <input type="submit" value="저장" id="toDoListBtn" />
+      </form>
+      <ul id="todo-list"></ul>
+      <span id="qoute" class="hidden"></span>
+    </div>
+  </body>
+
+  <script src="./js/login.js"></script>
+  <script src="./js/clock.js"></script>
+  <script src="./js/background.js"></script>
+  <script src="./js/weather.js"></script>
+  <script src="./js/todolist.js"></script>
+  <script src="./js/qoutes.js"></script>
+  <script src="./js/dayclock.js"></script>
+</html>
